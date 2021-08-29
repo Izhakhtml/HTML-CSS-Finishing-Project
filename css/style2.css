@@ -1,0 +1,97 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+#background{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height:100%;
+    z-index:-1;
+}
+ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+    background: rgb(250,249,245);
+    background: linear-gradient(90deg, rgba(250,249,245,1) 0%, rgba(246,188,179,1) 12%, rgba(244,191,177,1) 27%, rgba(240,195,185,1) 47%, rgba(242,186,180,1) 78%, rgba(255,255,255,1) 100%, rgba(236,173,157,1) 100%);
+}
+ul a{
+    text-decoration: none;
+    
+}
+li{
+    color: black;
+    font-size: large;
+    font-family: 'Oswald', sans-serif;
+    transition: 1s;
+    border-bottom: 2px black dotted;
+
+}
+li:hover{
+    font-size: larger;
+    filter: drop-shadow(0 0 0.75rem black);
+}
+#gif{
+    width: 90px;
+    border: 1.5px black solid;
+    border-radius:50%;
+    padding: 3px;
+    box-shadow: 10px -5px 5px  gray;
+}
+#span{
+    color: chocolate;
+    margin-left: 90%;
+    font-size: large;
+} 
+.p1{
+    border: 2px black solid;
+    margin-top: 4px;
+    padding:10px;
+    background: rgb(241,228,186);
+    background: linear-gradient(90deg, rgba(241,228,186,1) 0%, rgba(241,209,122,1) 47%, rgba(240,216,168,1) 77%, rgba(255,255,255,1) 100%, rgba(247,218,144,1) 100%); 
+    width: 80%;
+    height:80px;
+    overflow:scroll;
+}
+.p2{
+    border: 2px black solid;
+    margin-top: 4px;
+    padding:10px;
+    background: rgb(241,228,186);
+    background: linear-gradient(90deg, rgba(241,228,186,1) 0%, rgba(241,209,122,1) 47%, rgba(240,216,168,1) 77%, rgba(255,255,255,1) 100%, rgba(247,218,144,1) 100%);
+    width: 80%;
+    height:80px;
+    overflow:scroll;
+}
+.p3{
+    border: 2px black solid;
+    margin-top: 4px;
+    padding: 10px;
+    background: rgb(241,228,186);
+    background: linear-gradient(90deg, rgba(241,228,186,1) 0%, rgba(241,209,122,1) 47%, rgba(240,216,168,1) 77%, rgba(255,255,255,1) 100%, rgba(247,218,144,1) 100%);
+    width: 80%;
+    height:80px;
+    overflow:scroll;
+}
+.p4{
+    border: 2px black solid;
+    margin-top: 4px;
+    padding: 10px;
+    background: rgb(241,228,186);
+    background: linear-gradient(90deg, rgba(241,228,186,1) 0%, rgba(241,209,122,1) 47%, rgba(240,216,168,1) 77%, rgba(255,255,255,1) 100%, rgba(247,218,144,1) 100%); 
+    width: 80%;
+    height:80px;
+    overflow:scroll;
+}
+h1{
+    /* border-bottom: white 4px solid; */
+    color: black;
+    background: rgb(250,249,245);
+    background: linear-gradient(90deg, rgba(250,249,245,1) 0%, rgba(246,188,179,1) 12%, rgba(244,191,177,1) 27%, rgba(240,195,185,1) 47%, rgba(242,186,180,1) 78%, rgba(255,255,255,1) 100%, rgba(236,173,157,1) 100%);
+}
+.under{
+    margin-left: 15%;
+}
